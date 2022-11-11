@@ -1,3 +1,5 @@
+http://example.com/2022/11/11/Markdown/
 http://example.com/repository/index.html
 http://example.com/2022/11/11/hello-world/
 http://example.com/
+http://example.com/tags/others/
