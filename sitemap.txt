@@ -1,3 +1,5 @@
+http://example.com/2022/11/03/2022.11.3-PBS.study.record/
+http://example.com/2022/11/03/2022.11.3-diary/
 http://example.com/about/index.html
 http://example.com/2022/11/11/Markdown/
 http://example.com/categories/index.html
@@ -8,4 +10,6 @@ http://example.com/404.html
 http://example.com/2022/11/11/hello-world/
 http://example.com/
 http://example.com/tags/markdown/
+http://example.com/categories/PBS/
+http://example.com/categories/%E6%97%A5%E8%AE%B0/
 http://example.com/categories/others/

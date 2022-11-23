@@ -17,18 +17,20 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>404 Not Found：该页无法显示 | Hexo</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="404 Not Found：该页无法显示">
-<meta property="og:url" content="http://example.com/404.html">
+  <title>PBS学习记录 | Hexo</title>
+  <meta name="description" content="Proposer  Builder Separation最初设计的目的是 对抗MEV 对抗中心化（矿池）的方案  目前合并之后的Validator需要做的两件事情： 生成区块 共识投票  问题：作为区块的生产者，向矿池商可以通过审查交易，进行三明治攻击等复杂的算法实现MEV，然而作为普通的验证者，生产区块时我们不能通过技术达到MEV。为了让普通的人可以摆脱这种困扰，通过PBS方案解决这个问题。 F">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PBS学习记录">
+<meta property="og:url" content="http://example.com/2022/11/03/2022.11.3-PBS.study.record/index.html">
 <meta property="og:site_name" content="wStar&#39;s Web3 site">
+<meta property="og:description" content="Proposer  Builder Separation最初设计的目的是 对抗MEV 对抗中心化（矿池）的方案  目前合并之后的Validator需要做的两件事情： 生成区块 共识投票  问题：作为区块的生产者，向矿池商可以通过审查交易，进行三明治攻击等复杂的算法实现MEV，然而作为普通的验证者，生产区块时我们不能通过技术达到MEV。为了让普通的人可以摆脱这种困扰，通过PBS方案解决这个问题。 F">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-11-23T03:23:12.781Z">
-<meta property="article:modified_time" content="2022-11-11T03:00:44.517Z">
+<meta property="article:published_time" content="2022-11-03T11:53:17.000Z">
+<meta property="article:modified_time" content="2022-11-23T12:29:04.550Z">
 <meta property="article:author" content="imynniu">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://example.com/404.html">
+  <link rel="canonical" href="http://example.com/2022/11/03/2022.11.3-PBS.study.record/index.html">
   
     <link rel="alternate" href="/atom.xml" title="wStar&#39;s Web3 site" type="application/atom+xml">
   
@@ -314,14 +316,14 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="page-" class="article article-type-page" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="true-2022.11.3-PBS.study.record" class="article article-type-true" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      404 Not Found：该页无法显示
+      PBS学习记录
     </h1>
   
 
@@ -329,11 +331,16 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/404.html" class="article-date">
-	  <time datetime="2022-11-23T03:23:12.781Z" itemprop="datePublished">2022-11-23</time>
+	<a href="/2022/11/03/2022.11.3-PBS.study.record/" class="article-date">
+	  <time datetime="2022-11-03T11:53:17.000Z" itemprop="datePublished">2022-11-03</time>
 	</a>
 </span>
         
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/PBS/">PBS</a>
+  </span>
+
         
 
         
@@ -345,20 +352,50 @@
 	</span>
 
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/404.html#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/11/03/2022.11.3-PBS.study.record/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 0(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 1.1k(字)</span>
 	
 	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 1(分)</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3(分)</span>
 	
 
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <script type="text/javascript" src="//www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="<%- config.url %>" homePageName="回到我的主页"></script>
+        <h3 id="Proposer-Builder-Separation"><a href="#Proposer-Builder-Separation" class="headerlink" title="Proposer  Builder Separation"></a>Proposer  Builder Separation</h3><h5 id="最初设计的目的是"><a href="#最初设计的目的是" class="headerlink" title="最初设计的目的是"></a>最初设计的目的是</h5><ul>
+<li>对抗MEV</li>
+<li>对抗中心化（矿池）的方案</li>
+</ul>
+<h5 id="目前合并之后的Validator需要做的两件事情："><a href="#目前合并之后的Validator需要做的两件事情：" class="headerlink" title="目前合并之后的Validator需要做的两件事情："></a>目前合并之后的Validator需要做的两件事情：</h5><ul>
+<li>生成区块</li>
+<li>共识投票</li>
+</ul>
+<h4 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h4><p>作为区块的生产者，向矿池商可以通过审查交易，进行三明治攻击等复杂的算法实现MEV，然而作为普通的验证者，生产区块时我们不能通过技术达到MEV。为了让普通的人可以摆脱这种困扰，通过PBS方案解决这个问题。</p>
+<h5 id="Flashbot-gt-mev-boost"><a href="#Flashbot-gt-mev-boost" class="headerlink" title="Flashbot-&gt;mev boost"></a>Flashbot-&gt;mev boost</h5><p>引入一种MEV boost的类似于客户端插件，取代了执行层面的额客户端。 构建者和搜索者为了构造自己想要的区块，向MEVboost竞价。MEVboost会接受出价最高的区块，然后提交到共识客户端。</p>
+<p>问题是需要信任通过MEVboost发给你区块的一方，已经验证好了区块。 但是我们是不喜欢信任机制的存在，pbs必须完全按照协议建立和拍卖。这种方式的话，就会可以支持danksharding，而不是旧的分片设计（每个分片中有自己单独的数据），将所有的数据放到一个大区块中。danksharding的问题就是资源密集，普通的个人电脑是无法构建区块并完成验证还能够实现MEV，于是分化出构建者的角色，利用其高性能的特点构建更大的区块（将原计划64个分片中的数据集合放置到一起）。我们只需要验证这个区块就好了。在此方案下，构建者将区块头和竞价发送给proposer，所有的提议者只需要把出价最高的区块提议到网络。人们可以拿走那个区块，然后做数据可用性抽样，如果数据可用，那么就可以对其进行签名投票。</p>
+<h5 id="对于构建者审查交易问题"><a href="#对于构建者审查交易问题" class="headerlink" title="对于构建者审查交易问题"></a>对于构建者审查交易问题</h5><p>例如拒绝对某个地址的交易进行打包，crlist就是针对此问题提出的。提议者列出自己交易池中所有的交易，如果构建者只是打包自己喜欢的交易的话，就必须证明该区块一直是满的，这样可以抵消这种中心化的审查力量</p>
+<p>通过pbs，就将MEV问题留给了一部分人（builders）去竞争，</p>
+<h5 id="为什么builder会想成为builder"><a href="#为什么builder会想成为builder" class="headerlink" title="为什么builder会想成为builder"></a>为什么builder会想成为builder</h5><ul>
+<li>直接从区块中获取MEV和Gas</li>
+<li>searchers可以竞争向builder进行出价从而可以打包自己的bundle</li>
+<li>一个有效的市场中，builders应该竞争出价是他们收益达到最大化，间接的价值都流向了验证者</li>
+<li>一个低效的市场，一个超级构建者（或者中心化的builders）可以随便出价</li>
+<li>只要有足够多的builders就能保证出价达到区块的全部价值，使得价值流向验证者，保持去超级中心化</li>
+</ul>
+<h5 id="谁能够成为builder的候选人"><a href="#谁能够成为builder的候选人" class="headerlink" title="谁能够成为builder的候选人"></a>谁能够成为builder的候选人</h5><p>矿池，对于不喜欢构建区块的矿工，矿池可以将其发送给通过工作量证明或者证明区块获胜的矿工，</p>
+<h5 id="mevboost会发生什么，"><a href="#mevboost会发生什么，" class="headerlink" title="mevboost会发生什么，"></a>mevboost会发生什么，</h5><p>就会像merge最开始那样，flashbot运行构建器和中继器，他们是承担这个角色的重要部分</p>
+<p>searcher是那些只提交bundle的角色，他们运行特定的策略包含交易，构建就像一个独立的过程，不仅仅是接受所有的出价，喜欢用某种算法进行优化，比如将他们放在一起的最佳方式是什么。</p>
+<p>运行MEVboost的会是searcher的候选人 ，在实行pbs之后，searcher为builder提供捆绑包，所有的MEVseacher，大多数情况下，他们会运行特定的策略比如说套利或者三明治，他们无法向所有的MEV一样构建，只能够有效的运行两三个策略。构建者就作为一个新角色将这些bundle打包进区块。</p>
+<h5 id="searcher："><a href="#searcher：" class="headerlink" title="searcher："></a>searcher：</h5><ul>
+<li>平衡去中心化交易所的差价，进行套利</li>
+<li>在激烈的市场中做清算，compound，ave和其他的借贷市场</li>
+<li>17个MEV来源的searcher进行竞争</li>
+</ul>
+<p>构建者将所有的搜索者的bundle打包成区块，然后向proposer进行提议，提议者接受最高出价的区块。</p>
+<p>共识组–构建者，其余节点–提议者，进一步释放节点压力</p>
 
       
     </div>
@@ -368,7 +405,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://example.com/404.html" title="404 Not Found：该页无法显示" target="_blank" rel="external">http://example.com/404.html</a>
+      <a href="http://example.com/2022/11/03/2022.11.3-PBS.study.record/" title="PBS学习记录" target="_blank" rel="external">http://example.com/2022/11/03/2022.11.3-PBS.study.record/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -405,6 +442,20 @@
 
   <nav class="bar bar-footer clearfix" data-stick-bottom>
   <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    <li class="prev">
+      <a href="/2022/11/11/hello-world/" title="Hello World"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+    </li>
+    
+    
+    <li class="next">
+      <a href="/2022/11/03/2022.11.3-diary/" title="2022.11.3 日记"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+  </ul>
   
   
   <!-- Button trigger modal -->
@@ -515,6 +566,12 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 <script src="/js/insight.js"></script>
 
 
+
+
+
+
+   
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
